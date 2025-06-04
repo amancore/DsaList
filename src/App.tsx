@@ -737,9 +737,6 @@ function App() {
 			},
 		],
 	};
-	{
-		console.log(QuesList);
-	}
 	function HomePage() {
 		return (
 			<>
