@@ -741,7 +741,6 @@ function App() {
 		return (
 			<>
 				<Hero />
-				{/* <ScrollToTop /> */}
 				<div className="grid grid-cols-5 ">
 					{Object.keys(QuesList).map((item) => (
 						<Box
@@ -755,7 +754,7 @@ function App() {
 	}
 	return (
 		<>
-			<BrowserRouter basename="/DsaList">
+			<BrowserRouter>
 				<NavBar />
 				<Routes>
 					<Route path="/" element={<HomePage />} />

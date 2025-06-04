@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import { totalDone } from "../Utils";
 export interface props {
 	id: number;
 	name: string;
