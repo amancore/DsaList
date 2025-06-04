@@ -755,7 +755,7 @@ function App() {
 	}
 	return (
 		<>
-			<BrowserRouter>
+			<BrowserRouter basename="/DsaList">
 				<NavBar />
 				<Routes>
 					<Route path="/" element={<HomePage />} />
