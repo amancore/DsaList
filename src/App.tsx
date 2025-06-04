@@ -1,7 +1,6 @@
 import NavBar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Box from "./Components/Box";
-import ScrollToTop from "./ScrollToTop";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import QuestionList from "./Components/QuestionList";
 function App() {
