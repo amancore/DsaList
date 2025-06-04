@@ -742,7 +742,7 @@ function App() {
 		return (
 			<>
 				<Hero />
-					<ScrollToTop />
+				{/* <ScrollToTop /> */}
 				<div className="grid grid-cols-5 ">
 					{Object.keys(QuesList).map((item) => (
 						<Box

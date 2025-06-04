@@ -3,6 +3,7 @@ import QuestIcon from "../assets/focus.png";
 import ok from "../assets/check.png";
 import cross from "../assets/letter-x.png";
 import { useState, useEffect } from "react";
+import ScrollToTop from "../ScrollToTop";
 interface props {
 	id: number;
 	name: string;
@@ -35,6 +36,7 @@ function QuestionList({ QuesList }: Props) {
 	};
 	return (
 		<>
+			<ScrollToTop />
 			<h1 className="text-3xl font-bold flex flex-row items-center justify-center m-5 gap-3">
 				<img
 					src={QuestIcon}
